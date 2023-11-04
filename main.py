@@ -28,11 +28,11 @@ while condition_1:
         # print("You don't chose , so see you")
 
 high_value = 0
-name_winner = None
+name_winner = ""
 for dictionary in list_bidders:
     for key in dictionary:
         valor = dictionary[key]
         if valor > high_value:
             high_value = valor
             name_winner = key
-print(f"The winner is {name_winner} with a bid of $ {high_value}")
+print(f"The winner is {name_winner} with a bid of ${high_value}")
